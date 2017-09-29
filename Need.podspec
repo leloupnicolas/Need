@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "Need"
   s.version          = "1.0.0"
-  s.summary          = "Need helps you developping validated forms in iOS apps."
+  s.summary          = "Need is a swift-based dependency injection utility."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Need helps you developping validated forms in iOS apps. You could use it with Email or NotBlank formats.
+Need is a swift-based dependency injection utility for iOS apps. Whatever you need as a service, wherever you need it.
                        DESC
 
   s.homepage         = "https://github.com/leloupnicolas/Need"
