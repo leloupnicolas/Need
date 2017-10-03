@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Need"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Need is a swift-based dependency injection utility."
 
 # This description is used to generate tags and improve search results.
