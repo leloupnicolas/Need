@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C80FFE311F7E374F001631EA /* ServicesInjectionsAware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServicesInjectionsAware.swift; path = Need/ServicesInjectionsAware.swift; sourceTree = "<group>"; };
+		8F1DAA3E7F259D11308037E3 /* ServicesInjectionAwareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesInjectionAwareViewController.swift; sourceTree = "<group>"; };
+		C80FFE311F7E374F001631EA /* ServicesInjectionAware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServicesInjectionAware.swift; path = Need/ServicesInjectionAware.swift; sourceTree = "<group>"; };
 		C80FFE321F7E374F001631EA /* ServicesRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServicesRegistry.swift; path = Need/ServicesRegistry.swift; sourceTree = "<group>"; };
 		C80FFE331F7E374F001631EA /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServiceLocator.swift; path = Need/ServiceLocator.swift; sourceTree = "<group>"; };
 		C8CF38EB1DC9DC94002D11DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,9 +26,10 @@
 			isa = PBXGroup;
 			children = (
 				C80FFE331F7E374F001631EA /* ServiceLocator.swift */,
-				C80FFE311F7E374F001631EA /* ServicesInjectionsAware.swift */,
+				C80FFE311F7E374F001631EA /* ServicesInjectionAware.swift */,
 				C80FFE321F7E374F001631EA /* ServicesRegistry.swift */,
 				C8CF38EB1DC9DC94002D11DF /* Info.plist */,
+				8F1DAA3E7F259D11308037E3 /* ServicesInjectionAwareViewController.swift */,
 			);
 			name = Need;
 			sourceTree = "<group>";

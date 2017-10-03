@@ -23,6 +23,8 @@ To install Need, include the following in your Podfile
 
 ## How To
 
+### Setup
+
 After adding the framework to your project, you need to import the module in your `AppDelegate`
 
 ```swift
@@ -55,6 +57,20 @@ extension AppDelegate: ServicesRegistry {
     // Add here your own services
     // self.lazyServiceLocator.addService(OwnServiceImplementation() as OwnServiceProtocol)
   }
+}
+```
+
+### Usage
+
+Utility classes `ServicesInjectionAware` and `ServicesInjectionAwareViewController` are available in *Need*. You can use it as the following:
+
+```swift
+class OwnViewController: ServicesInjectionAwareViewController {
+  lazy var ownService: OwnServiceProtocol = {
+    return getService()
+  }()
+  
+  // Use your own service wherever you need.
 }
 ```
 
